@@ -15,12 +15,12 @@ Install the latest version of Rails and other needed gem
 + Install a js runtime. For example:
   + `$ gem install therubyracer`
 + Create a new Rails application
-		+ `$ rails new my_app_name --database=mysql`
+  + `$ rails new my_app_name --database=mysql`
 + Go there
   + `$ cd my_app_name`
 + Configure the locales if needed
   + If English is not the site's default language, add the following line in the config/application.rb
-		+ config.i18n.default_locale = :de
+  + config.i18n.default_locale = :de
   + If you want to support other languages than English, follow the following url and copy the relevant files to the config/locales/ folder: https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale
   + Add this line with the app's relevant locales. Still in application.rb
     + config.i18n.available_locales = [ :de, :fr ]
