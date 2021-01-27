@@ -22,8 +22,8 @@ Install the latest version of Rails and other needed gem
   + If English is not the site's default language, add the following line in the config/application.rb
 		+ config.i18n.default_locale = :de
   + If you want to support other languages than English, follow the following url and copy the relevant files to the config/locales/ folder: https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale
-+ Add this line with the app's relevant locales. Still in application.rb
-  + config.i18n.available_locales = [ :de, :fr ]
+  + Add this line with the app's relevant locales. Still in application.rb
+    + config.i18n.available_locales = [ :de, :fr ]
 + Change the time zone if necessary to reflect where the site or the main audience is based. Uncomment and modify the following line in application.rb
   + config.time_zone = 'Europe/Berlin'
 + Add this line to your application's Gemfile:
